@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .temp{
+background-color:  hsl(224, 23%, 55%);
+background-color:hsl(223, 47%, 23%)  ;
+background-color:  hsl(225, 100%, 98%) ;
+background-color:   ;
+background-color:  hsl(245, 75%, 52%) ;
+} */
+body{
+    font-size:16px ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:hsl(225, 100%, 94%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainBox{
+    background-color: white;
+    
+    width: 450px; 
+    height: 700px; 
+    margin: auto;
+    
+    box-shadow: 0px 20px 40px #c7cff2;
+    border-radius: 30px;
+    
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;
+    
+  }
+
+  .order{
+      margin:45px auto 25px auto ;
+    
+  }
+
+.description {
+    color: gray;
+    width: 400px;
+   margin:0 0 0 20px;
+ 
+    
+   
+}
+
+.description p{
+   
+    margin-left: 47px;
+    font-weight: 500 ;
+   
+}
+.annualPlan{
+background-color: hsl(230,75%,98%);
+
+width: 350px;
+height: 60px;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+margin:20px auto 30px auto ;
+padding: 10px 5px;
+}
+
+
+.annualPlan a{
+    color: hsl(244,74%,51%);
+    
+   
+}
+
+.annualPlan img{
+    width: auto;
+}
+
+
+.annualDiv p{
+    
+    color: gray;
+    
+}
+
+.annualPlan .perYear{
+    margin: 0 20px 0 20px;
+}
+
+.annualPlan .change{
+    margin: 0 0 0 75px;
+    font-weight: 600;
+}
+
+.annualPlan .change a:hover{
+    color: gray;
+}
+
+
+.proceed button{
+width: 400px;
+height: 57px;
+border-radius: 15px;
+background-color:  hsl(244,74%,51%);
+color: white;
+font-size: 18px;
+box-shadow: 0 16px 22px #cdc7ff;
+}
+
+.proceed button:hover{
+background-color: #766cf1;
+}
+
+.cancle {
+    margin: 30px auto 40px auto;
+}
+
+.cancle button{
+    color: gray;
+    border: white solid 0px;
+    /* text-decoration: none; */
+    font-size: 16px;
+    background-color: transparent;
+    font-family: 'Red Hat Display', sans-serif;  
+}
+
+.cancle button:hover{
+color: black;
+}
